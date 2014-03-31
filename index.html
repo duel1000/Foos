@@ -4,9 +4,12 @@
 		<meta charset="UTF-8">
 		<title>Test Page with angular</title>
 		<script src="lib/angular/angular.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Ceviche+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="master.css">
 	</head>
 	<body>
-		<input type="text" ng-model="name">
-		<h2>Welcome {{name}}</h2>
+		<h3 class="smallTitle">Type in your name pls:</h3>
+		<input class="nameInput" type="text" ng-model="name">
+		<h2 class="changeText">Welcome {{name}}, to Angular magic!!!</h2>
 	</body>
 </html>	
