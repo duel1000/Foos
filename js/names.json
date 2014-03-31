@@ -1,0 +1,27 @@
+[
+	{
+		"name" : "Martin Due",
+		"title": "Developer",
+		"company":"Ditmer a/s"
+	},
+	{
+		"name" : "Anders Steensgaard",
+		"title": "Træner",
+		"company":"Århus Bordfodbold Forening"
+	},
+	{
+		"name" : "Testperson1",
+		"title": "TestTitel1",
+		"company":"TestArbejde1"
+	},
+	{
+		"name" : "Testperson2",
+		"title": "TestTitel2",
+		"company":"TestArbejde2"
+	},
+	{
+		"name" : "Testperson3",
+		"title": "TestTitel3",
+		"company":"TestArbejde3"
+	},
+]

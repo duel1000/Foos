@@ -1,9 +1,7 @@
 var myNameSpace = angular.module('myApp',[]);
 
-myNameSpace.controller('MyController', function MyController($scope){
-	$scope.author = {
-		'name' : 'Martin Due',
-		'title': 'Developer',
-		'company':'Ditmer a/s'
-	}
+myNameSpace.controller('MyController', function MyController($scope, $http){
+	$http.get('js/names.json').success(function(data) {
+		$scope.authors = data;
+	});	
 });
