@@ -1,8 +1,6 @@
 	body{
-
-		text-align: center;
+		background-color: black;
 		margin-top: 100px;
-		font-family: 'Ceviche One', cursive;
 	}
 	.nameInput{
 		font-weight: bold;
@@ -22,5 +20,9 @@
 	.madeByMe{
 		margin-top: 150px;
 		color: purple;
+	}
+
+	.main{
+		color: red;
 	}
 
