@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="myApp">
 	<head>
 		<meta charset="UTF-8">
 		<title>Test Page with angular</title>
 		<script src="lib/angular/angular.min.js"></script>
+		<script src="js/controllers.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Ceviche+One' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="master.css">
+		<link rel="stylesheet" type="text/css" href="css/master.css">
 	</head>
 	<body>
 		<h3 class="smallTitle">Type in your name pls:</h3>
-		<input class="nameInput" type="text" ng-model="name">
+		<input class="nameInput" placeholder="Indtast dit navn..." type="text" ng-model="name">
 		<h2 class="changeText">Welcome {{name}}, to Angular magic!!!</h2>
-		<p>Test</p>
+		
+		<div class="madeByMe" ng-controller ="MyController">
+			<h1>{{author.name}}</h1>
+			<p>{{ author.title + ', ' + author.company }}</p>
+		</div>	
+
 	</body>
 </html>	
