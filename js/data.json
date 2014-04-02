@@ -1,28 +1,45 @@
 [
-	{
-		"name" : "Martin Due",
-		"title": "Developer",
-		"company":"Ditmer a/s"
-	},
-	{
-		"name" : "Anders Steensgaard",
-		"title": "Træner",
-		"company":"Århus Bordfodbold Forening"
-	},
-	{
-		"name" : "Testperson1",
-		"title": "TestTitel1",
-		"company":"TestArbejde1"
-	},
-	{
-		"name" : "Testperson2",
-		"title": "TestTitel2",
-		"company":"TestArbejde2"
-	},
-	{
-		"name" : "Testperson3",
-		"title": "TestTitel3",
-		"company":"TestArbejde3"
-	}
+  {
+    "Fornavn":"Martin4",
+    "Efternavn":"Due",
+    "Født":"19-11-1989",
+    "Mobil":40458051,
+    "Email":"martindue89@hotmail.com",
+    "Adresse":"Grønnegade 77",
+    "Postnummer":8000,
+    "Tidligere medlem?":"Ja",
+    "Betalt":200
+  },
+  {
+    "Fornavn":"Martin3",
+    "Efternavn":"Due",
+    "Født":"19-11-1989",
+    "Mobil":40458051,
+    "Email":"martindue89@hotmail.com",
+    "Adresse":"Grønnegade 77",
+    "Postnummer":8000,
+    "Tidligere medlem?":"Ja",
+    "Betalt":200
+  },
+  {
+    "Fornavn":"Martin2",
+    "Efternavn":"Due",
+    "Født":"19-11-1989",
+    "Mobil":40458051,
+    "Email":"martindue89@hotmail.com",
+    "Adresse":"Grønnegade 77",
+    "Postnummer":8000,
+    "Tidligere medlem?":"Ja",
+    "Betalt":200
+  },{
+    "Fornavn":"Martin1",
+    "Efternavn":"Due",
+    "Født":"19-11-1989",
+    "Mobil":40458051,
+    "Email":"martindue89@hotmail.com",
+    "Adresse":"Grønnegade 77",
+    "Postnummer":8000,
+    "Tidligere medlem?":"Ja",
+    "Betalt":200
+  }
 ]
-	
