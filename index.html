@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
-<head>
-	<meta charset="UTF-8">
-	<title>Test Page with angular</title>
-	<script src="lib/angular/angular.min.js"></script>
-	<script src="js/controllers.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Ceviche+One' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/master.css">
-</head>
-<body>
-	<div class="main" ng-controller="MyController">
+	<head>
+		<meta charset="UTF-8">
+		<title>Test Page with angular</title>
+		<script src="lib/angular/angular.min.js"></script>
+		<script src="js/controllers.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Ceviche+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/master.css">
+	</head>
+	<body>
+		<!--<h3 class="smallTitle">Type in your name pls:</h3>
+		<input class="nameInput" placeholder="Indtast dit navn..." type="text" ng-model="name">
+		<h2 class="changeText">Welcome {{name}}, to Angular magic!!!</h2>
+		
+		<div class="main" ng-controller="MyController">
+			<ul class="authorlist">
+				<li class="author" ng-repeat="item in authors">
+					<div>
+						<h2>{{item.name}}</h2>
+						<h3>{{item.title}}</h3>
+						<h4>{{item.company}}</h4>
+					</div>	
+				</li>
 
-		<div class="search">
-			<h1>Klubbens spillere</h1>
-			<label>søg:</label>
-			<input ng-model="query" placeholder="Søg efter spiller..." autofocus>
-
-			<!--<label class="formgroup">by:
-				<select ng-model="authorOrder">
-					<option value="name">Navn</option>
-				</select>
-			</label>-->
-		</div>
-
-		<ul class="authorlist">
-			<li class="author" ng-repeat="item in authors | filter: query | orderBy : authorOrder">
-				<div>
-					<h2>{{item.Fornavn}}</h2>
-					<h3>{{item.Efternavn}}</h3>
-					<h4>{{item.Mobil}}</h4>
-					<h4>{{item.Email}}</h4>
-				</div>	
-			</li>
-
-		</ul>
-	</div> 
-
+			</ul>
+		</div> -->
+	<div class="myDiv">
+		<h2 class="changeText">Where to begin?</h2>
+		<img src="images/learning.jpg">
+		<h3 class="lolText">Kan jeg lige få dem i prioriteret rækkefølge ;) ?</h3>
+	</div>
 	<!--
 		<div class="madeByMe" ng-controller ="MyController">
 			<h1>{{authors.name}}</h1>
@@ -43,5 +37,5 @@
 		</div>	
 	-->
 
-</body>
+	</body>
 </html>	
